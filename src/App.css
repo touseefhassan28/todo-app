@@ -1,0 +1,45 @@
+#root {
+  margin: 0 auto;
+  padding: 2rem;
+  width: 50%;
+  text-align: center;
+}
+
+.todo-list {
+  input[type=text]{
+  width: 78%;
+  margin-right: 2%;
+  line-height: 2rem;
+  padding-left: 2%;
+}
+
+}
+
+.todo-item{
+  margin-top: 2%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.text{
+  width: 90%;
+  display: flex;
+  justify-content: flex-start;
+  gap: 3%;
+}
+
+.button{
+
+  display: flex;
+  justify-content: flex-end;
+  gap: 3%;
+
+}
+
+.add-btn{
+  width: 16%;
+}
+
+.completed{
+  text-decoration: line-through;
+}
